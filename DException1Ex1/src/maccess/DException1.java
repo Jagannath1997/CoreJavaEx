@@ -2,12 +2,13 @@ package maccess;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
-
+//this class demo for Simple Exception Handling
 public class DException1 {
 
 	public static void main(String[] args) {
 
-		xyz: while (true) {
+		xyz://level for while loop 
+		while (true) {
 			try {
 				Scanner s = new Scanner(System.in);
 				System.out.println("Enter the val:");
